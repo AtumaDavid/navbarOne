@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #ba1972;
+}
+
+.nav{
+    background-color: #fff;
+    padding: 12px 5px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(120, 120, 120);
+    position: relative;
+}
+
+.tabs{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.tab {
+    padding: 12px 22px;
+    margin-right: 15px;
+    border-radius: 55px;
+    text-align: center;
+    white-space: nowrap;
+    transition: 0.3s ease;
+    overflow: hidden;
+    max-width: 0px;
+    cursor: pointer;
+    position: relative;
+    flex-basis: 120px;
+}
+
+/* when specific tab is active */
+.tab-is-active{
+    max-width: 100px;
+    box-shadow: 7px 7px 15px rgba(60, 60, 60, 0.3);
+}
+
+
+.tab-icon{
+    margin-right: 1px;
+    font-size: 22px;
+    vertical-align: middle;
+    position: relative;
+    right: 11px;
+    top: -1px;
+}
+
+.tab-name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.tab-home{
+    background: #073b76;
+    color: #58a6ff;
+}
+
+.tab-about{
+    background: #09851e;
+    color: #82e494;
+}
+
+.tab-contact{
+    background: #570675;
+    color: #ad44d4;
+}
+
+.tab-user{
+    background: #7f4707;
+    color: #bb813f;
+}
